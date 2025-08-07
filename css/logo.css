@@ -1,0 +1,24 @@
+/* --- СТИЛІ ЛОГОТИПА --- */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Відстань між зображенням та текстом */
+}
+
+.logo-img {
+    height: 100px; /* Висота вашого логотипа */
+    width: auto;  /* Ширина підлаштується автоматично */
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-color); /* Використовуємо змінну з основного файлу */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.logo-text .gold {
+    color: var(--accent-gold); /* Колір для слова BUD CITY */
+}
