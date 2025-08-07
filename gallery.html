@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Галерея - ARCH BUD CITY</title>
+    <link rel="stylesheet" href="css/logo.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <a href="index.html"><img src="img/logo-last.png" alt="ARCH BUD CITY Logo" class="logo-img"></a>
+            </div>
+            <nav class="nav">
+
+                <!-- Бургер-меню для мобільних -->
+                <button class="hamburger-btn" aria-label="Відкрити меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-menu">
+                    <button class="nav-close-btn" aria-label="Закрити меню">&times;</button>
+                    <a href="index.html" class="nav-menu-logo"><img src="img/logo-last.png" alt="Логотип"></a>
+                    <ul class="nav-menu-list">
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="services.html">Послуги</a></li>
+                        <li><a href="gallery.html">Фото</a></li>
+                        <li><a href="contact.html">Контакти</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+            <main>
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <h2 class="visible">Наша Галерея</h2>
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Всі роботи</button>
+                <button class="filter-btn" data-filter="paving">Укладання плитки</button>
+                <button class="filter-btn" data-filter="asphalt">Асфальтування</button>
+                <button class="filter-btn" data-filter="infra">Інфраструктурні об'єкти</button>
+                <button class="filter-btn" data-filter="dismantling">Демонтажні роботи</button>
+                <button class="filter-btn" data-filter="metal">Металоконструкції</button>
+            </div>
+
+            <div class="category-showcase">
+                 </div>
+
+            <div class="gallery-grid">
+                <a href="img/demontazh-bagatopoverhivky-ekskavatorom-red.jpg" class="gallery-item" data-category="dismantling">
+                    <img src="img/demontazh-bagatopoverhivky-ekskavatorom-red.jpg" alt="Демонтаж багатоповерхівки">
+                    <div class="gallery-item-overlay"><span class="category-title">Демонтажні роботи</span></div>
+                </a>
+                <a href="img/demontazh-budivli-kyiv1.jpg" class="gallery-item" data-category="dismantling">
+                    <img src="img/demontazh-budivli-kyiv1.jpg" alt="Демонтаж будівлі">
+                    <div class="gallery-item-overlay"><span class="category-title">Демонтажні роботи</span></div>
+                </a>
+                
+                <a href="img/betonni-roboty-v-tuneli.jpg" class="gallery-item" data-category="infra">
+                    <img src="img/betonni-roboty-v-tuneli.jpg" alt="Бетонні роботи в тунелі">
+                    <div class="gallery-item-overlay"><span class="category-title">Інфраструктурні об'єкти</span></div>
+                </a>
+                <a href="img/betonuvannya-opor-mostu.jpg" class="gallery-item" data-category="infra">
+                    <img src="img/betonuvannya-opor-mostu.jpg" alt="Бетонування опор мосту">
+                    <div class="gallery-item-overlay"><span class="category-title">Інфраструктурні об'єкти</span></div>
+                </a>
+                <a href="img/budivnytstvo-mostu.jpg" class="gallery-item" data-category="infra">
+                    <img src="img/budivnytstvo-mostu.jpg" alt="Будівництво мосту">
+                    <div class="gallery-item-overlay"><span class="category-title">Інфраструктурні об'єкти</span></div>
+                </a>
+                <a href="img/dorozhni-roboty-na-trasi.jpg" class="gallery-item" data-category="infra">
+                    <img src="img/dorozhni-roboty-na-trasi.jpg" alt="Дорожні роботи на трасі">
+                    <div class="gallery-item-overlay"><span class="category-title">Інфраструктурні об'єкти</span></div>
+                </a>
+                
+                <a href="img/asfaltuvannya-dorizhky-v-parku.jpg" class="gallery-item" data-category="asphalt">
+                    <img src="img/asfaltuvannya-dorizhky-v-parku.jpg" alt="Асфальтування доріжки">
+                    <div class="gallery-item-overlay"><span class="category-title">Асфальтування</span></div>
+                </a>
+                <a href="img/asfaltuvannya-terytoriyi.jpg" class="gallery-item" data-category="asphalt">
+                    <img src="img/asfaltuvannya-terytoriyi.jpg" alt="Асфальтування території">
+                    <div class="gallery-item-overlay"><span class="category-title">Асфальтування</span></div>
+                </a>
+                
+                <a href="img/blagoustriy-podvirya-brukivkoyu.jpg" class="gallery-item" data-category="paving">
+                    <img src="img/blagoustriy-podvirya-brukivkoyu.jpg" alt="Благоустрій подвір'я">
+                    <div class="gallery-item-overlay"><span class="category-title">Укладання плитки</span></div>
+                </a>
+                <a href="img/dorizhka-ta-skhody-z-brukivky.jpg" class="gallery-item" data-category="paving">
+                    <img src="img/dorizhka-ta-skhody-z-brukivky.jpg" alt="Доріжка та сходи">
+                    <div class="gallery-item-overlay"><span class="category-title">Укладання плитки</span></div>
+                </a>
+                <a href="img/dovga-dorizhka-z-dekoratyvnoyi-plytky.jpg" class="gallery-item" data-category="paving">
+                    <img src="img/dovga-dorizhka-z-dekoratyvnoyi-plytky.jpg" alt="Довга доріжка з плитки">
+                    <div class="gallery-item-overlay"><span class="category-title">Укладання плитки</span></div>
+                </a>
+                <a href="img/pidgotovka-osnovy-dlya-brukivky.jpg" class="gallery-item" data-category="paving">
+                    <img src="img/pidgotovka-osnovy-dlya-brukivky.jpg" alt="Підготовка основи">
+                    <div class="gallery-item-overlay"><span class="category-title">Укладання плитки</span></div>
+                </a>
+                <a href="img/skhody-z-trotuarnoyi-plytky.jpg" class="gallery-item" data-category="paving">
+                    <img src="img/skhody-z-trotuarnoyi-plytky.jpg" alt="Сходи з плитки">
+                    <div class="gallery-item-overlay"><span class="category-title">Укладання плитки</span></div>
+                </a>
+                <a href="img/ukladannya-brukivky.jpg" class="gallery-item" data-category="paving">
+                    <img src="img/ukladannya-brukivky.jpg" alt="Укладання бруківки">
+                    <div class="gallery-item-overlay"><span class="category-title">Укладання плитки</span></div>
+                </a>
+                <a href="img/ukladannya-dekoratyvnoyi-brukivky.jpg" class="gallery-item" data-category="paving">
+                    <img src="img/ukladannya-dekoratyvnoyi-brukivky.jpg" alt="Укладання декоративної бруківки">
+                    <div class="gallery-item-overlay"><span class="category-title">Укладання плитки</span></div>
+                </a>
+                
+                <a href="img/gotovyi-metaloprofilnyi-dah.jpg" class="gallery-item" data-category="metal">
+                    <img src="img/gotovyi-metaloprofilnyi-dah.jpg" alt="Готовий дах">
+                    <div class="gallery-item-overlay"><span class="category-title">Металоконструкції</span></div>
+                </a>
+                <a href="img/metalichni-fermy-dahu.jpg" class="gallery-item" data-category="metal">
+                    <img src="img/metalichni-fermy-dahu.jpg" alt="Металічні ферми">
+                    <div class="gallery-item-overlay"><span class="category-title">Металоконструкції</span></div>
+                </a>
+                <a href="img/montazh-metalokarkasu-navisu.jpg" class="gallery-item" data-category="metal">
+                    <img src="img/montazh-metalokarkasu-navisu.jpg" alt="Монтаж металокаркасу">
+                    <div class="gallery-item-overlay"><span class="category-title">Металоконструкції</span></div>
+                </a>
+                <a href="img/obshyvka-angara-sendvich-panelyamy.jpg" class="gallery-item" data-category="metal">
+                    <img src="img/obshyvka-angara-sendvich-panelyamy.jpg" alt="Обшивка ангара">
+                    <div class="gallery-item-overlay"><span class="category-title">Металоконструкції</span></div>
+                </a>
+                <a href="img/suchasnyi-garazh-z-metaloprofilyu.jpg" class="gallery-item" data-category="metal">
+                    <img src="img/suchasnyi-garazh-z-metaloprofilyu.jpg" alt="Сучасний гараж">
+                    <div class="gallery-item-overlay"><span class="category-title">Металоконструкції</span></div>
+                </a>
+            </div> 
+                <div class="text-center">
+                    <button class="btn" id="load-more-btn">Завантажити ще</button>
+                </div>
+        </div>
+    </section>
+</main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 ARCH BUD CITY. Усі права захищено.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
