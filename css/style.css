@@ -4,6 +4,35 @@ html {
 main {
     flex-grow: 1; /* Змушує основний контент займати весь вільний простір */
 }
+
+/* --- СТИЛІ ДЛЯ КОНТАКТІВ --- */
+
+.contact-list {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-item {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.contact-item strong {
+    display: block; /* Робить назву окремим рядком */
+    margin-bottom: 10px;
+    color: var(--gold-border);
+}
+
+.contact-item a {
+    display: block; /* Кожне посилання буде з нового рядка */
+    margin-bottom: 10px;
+    color: var(--text-white-gold);
+}
+
+.contact-item a:last-child {
+    margin-bottom: 0;
+}
 /* --- ОСНОВНІ СТИЛІ --- */
 
 /* Визначаємо вашу палітру як змінні для зручності */
@@ -750,3 +779,4 @@ a:hover {
         width: 400px;
     }
 }
+
